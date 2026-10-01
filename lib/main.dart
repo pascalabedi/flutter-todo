@@ -30,7 +30,6 @@ class TodoPage extends StatefulWidget {
   State<TodoPage> createState() => _TodoPageState();
 }
 
-
 class _TodoPageState extends State<TodoPage> {
 
   // Notre liste de tâches
@@ -53,7 +52,6 @@ class _TodoPageState extends State<TodoPage> {
       tasks.removeAt(index);
     });
   }
-
 
   @override
   Widget build(BuildContext context) {
